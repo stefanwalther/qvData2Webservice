@@ -1,0 +1,167 @@
+
+div.divTable
+{
+    position:relative;
+    font-size: 11px;
+    font-family: Arial, Tahoma;
+    color:#222; 
+}
+
+table.tblDataSelection
+{
+    overflow: auto;
+    border: 1px solid #C8C8C8;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;   
+    border-collapse: collapse;
+    
+}
+
+table.tblDataSelection thead th
+{
+    background: url("bg-thead.png") repeat-x scroll left top #eeeeee;
+    border-bottom: 1px solid #C8C8C8;
+    border-top: 1px solid #FFFFFF;  
+      
+}
+
+table.tblDataSelection tbody tr:hover 
+{ 
+    background: #eee; 
+    cursor:hand;
+    cursor:pointer;
+} 
+
+
+/*
+.selectRecord {
+    background-color: #b8ffb8;
+}
+
+.deselectRecord {
+    background-color: #ffd4d4;
+}
+*/
+
+
+table.tblDataSelection tr th
+{
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #C8C8C8;
+    padding: 6px 4px 4px 6px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+table.tblDataSelection tr
+{
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:#eeeeee;    
+}
+
+table.tblDataSelection tbody td 
+{
+
+    
+    padding-top:3px;
+    padding-right:3px;
+    padding-bottom:3px;
+    padding-left:3px;
+    border-left-color:#bebebe;
+    border-left-width: 1px;
+    border-left-style:dotted;
+}
+
+table.tblDataSelection th
+{
+    font-family: Arial, Tahoma;
+    font-weight:bold;  
+    font-size:9pt; 
+}
+
+td.selectionCol {text-align:center;}
+th.selectionColHeader {text-align:center; }
+
+.AllNone {font-size:8pt; font-family: Arial; display: inline;}
+
+a.AllNone {color: Blue; text-decoration:none;font-weight:normal;}
+a:hover.AllNone {text-decoration:underline;}
+
+
+.statusBar
+{
+    width:100%; 
+    height:35px;
+    background-color:#eeeeee;
+    font-family:Arial;
+    
+}
+
+.statusContent
+{
+    float:left;
+    font-size:10pt;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.divSubmit 
+{
+    float:right;
+    padding-right:10px;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+}
+
+.divLoading 
+{
+    top:0;
+    left:0;
+    position:absolute;
+    background-color:#fff;
+    z-index:32767;
+    height:100%;
+    width:100%;
+    overflow:auto;
+    opacity: 0.85;
+    
+}
+
+.loadingImg 
+{
+    /*padding-top:50px;  */
+}
+
+.loadingMsg
+{
+    text-align:center;
+    display: block;
+}
+.loadingInnerMsg
+{
+    margin-top:10px;
+    font-family: Arial, Verdana;
+    font-size:9pt;
+    color:#000;    
+}
+
+
+/****************************************
+Properties for the qvpp
+****************************************/
+.prop-130
+{
+    height:130px;    
+}
+.prop-100
+{
+    height:100px;    
+}
+.prop-90
+{
+    height:90px;    
+}

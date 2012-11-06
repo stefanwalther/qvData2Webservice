@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="Data2Webservice" Description="Pass values to a web service" Type="object" PageHeight="250" >
+
+  <Initiate Name="Chart.Text.0.Content" Value="http://localhost/YourWebserviceUrl/HandleQVData.asmx/GetQlikViewData" />
+  <Initiate Name="Chart.Text.1.Content" Value="Submit to Webservice" />
+  <Initiate Name="Chart.Text.2.Content" Value="250" />
+
+  <Text Label="WebService Url:" Type="text" TargetName="WebService" Width="400"/>
+  <Text Label="Label Submit" Type="text" TargetName="LabelSubmitButton" />
+  <Text Label="Max Records" Type="text" Width="200" />
+  <Text Expression="0" Type="checkbox" Width="50" />
+
+  <Dimension Label="Dimensions" DropTarget="Dimensions" Require="true" Multiple="true"  />
+  <Measurement Multiple="true" />
+
+  <Initiate Name="Caption.Text" Value="Data2Webservice" />
+  <Initiate Name="Caption.Font.Italic" Value="1" />
+
+  <Initiate Name="Chart.BgColor.ColorHex" Value="#FFFFE0" />
+  <PropertiesPage Version="11" File="PropFullDynamic.qvpp" />
+</ExtensionObject>
